@@ -280,6 +280,9 @@ input.banner-search-button {
 .pt-18px{
 	padding-top:18px!important;
 }
+.pt-1{
+	padding-top:1%;
+}
 .pr-20{
 	padding-right:20%;
 }
@@ -310,8 +313,14 @@ input.banner-search-button {
 .mt-230px{
 	margin-top: 230px;
 }
+.mt-1{
+	margin-top:1%;
+}
 .mt-5{
 	margin-top:5%;
+}
+.mt-10{
+	margin-top:10%;
 }
 /*Position*/
 .pos-ab{
