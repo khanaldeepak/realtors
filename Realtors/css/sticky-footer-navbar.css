@@ -1,0 +1,317 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+ /* margin-bottom: 60px;*/
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+/*******************************************************************
+					SLIDER INNER
+*******************************************************************/
+.responsive-image{
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-size: 100% 100%;
+
+  min-height: 650px;
+  padding: 80px;
+  padding-top: 120px;
+}
+.responsive-image-second{
+  background-image: url("../images/banner-second.jpg");
+  background-size: cover;
+  background-size: 100% 100%;
+
+  min-height: 650px;
+  padding: 80px;
+  padding-top: 120px;
+}
+
+.responsive-image-third{
+  background-image: url("../images/banner-third.jpg");
+  background-size: cover;
+  background-size: 100% 100%;
+
+  min-height: 650px;
+  padding: 80px;
+  padding-top: 120px;
+}
+.radio {
+    width: 21%;
+    float: left;
+    color: #ffffff;
+    background: #000000;
+    padding: 2% 1.5%;
+    text-transform: uppercase!important;
+    text-align: center;
+    margin: 0px .5%;
+    opacity: 0.7;
+    font-weight: bold;
+}
+.radio input[type="radio"] {
+    display: none;
+}
+.home-search-box {
+    width: 100%;
+}
+input.banner-search-box {
+    margin-top: 15px;
+    width: 80%;
+    /*height: 25px;*/
+    padding: 2%;
+    background: #F7F6F5;
+    border: none;
+}
+input.banner-search-button {
+    margin-top: 15px;
+    width: 15%;
+    height: 53px;
+    background: #ea1525;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1em;
+}
+.center-align {
+    text-align: center;
+}
+.header-section-secondary {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.white-text {
+    color: #ffffff;
+}
+.slider-inner {
+    position: relative;
+    margin:auto;
+	width: 70%;
+}
+.radio+.radio {
+    margin-top: 0px;
+}
+.no-margin-tb{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+/**************************************************************************
+
+***************************************************************************/
+.bg-grey{
+	background: #f7f7f7;
+
+}
+.blue-font{
+	color:#0099cc;
+}
+.bold{
+	font-weight:bold;
+}
+.big-text-heading {
+    font-weight: bold;
+    font-size: 2em;
+}
+.listing-counts {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.featured-image{
+	width:100%;
+}
+
+.featured-listing-detail{
+	list-style:none;
+	margin:0px;
+	padding:5px;
+}
+
+.featured-price {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.listing-details{
+	background: #ffffff;
+	
+}
+.listing-address{
+	font-size:0.9em;
+}
+
+.margin-top-10{
+	margin-top:10px;
+}
+
+.statics{
+	background:#ffffff;
+	padding:5px 0px;
+}
+.padding-bottom-30{
+	padding-bottom: 30px;
+}
+.padding-td-20{
+	padding: 20px 0px;
+}
+.trend-image-container img{
+	width:100%;
+}
+
+input.search-lenders {
+    padding: 6px 12px;
+    border: 1px solid #ffffff;
+    width: 70%;
+}
+.no-radius{
+	border-radius:0px;
+}
+/***************************************************************************
+							BOOTSTRAP CUSTOM
+****************************************************************************/
+.navbar-default {
+    background-color: #270f08;
+    border-color: #270f08;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #f7f6f5;
+    background-color: #2b1007;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: red;
+    background-color: transparent;
+}
+/*
+					
+.nav-bar-color{
+	background:none;
+	border:none;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+background:none;
+color:red;	
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+	font-size: 1.3em;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: red;
+    background-color: transparent;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-size: 1.9em;
+    font-weight: bold;
+	text-shadow: 4px 2px 5px #ffffff;
+}
+.red-text{
+	color:red;
+}
+.blue-text{
+	color:blue;
+}
+.black-text{
+	color:#000000;
+}
+
+.responsive-form{
+	
+
+}
+.test {
+    background: aliceblue;
+    margin: 0% 1.5%;
+    width: 22%;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #f0f8ff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.nav-tabs{
+	border:none;
+}
+.search-form-wrapper {
+	margin: auto;
+	text-align:center;
+	top: 100px;
+    position: relative;
+    
+    height: auto;
+    padding: 20px;
+	float:none;
+	
+}
+*/
+@media only screen and (max-width: 500px) {
+
+.padding-0 {
+    padding: 0;
+}
+
+.margin-0 {
+    margin: 0;
+}
+.responsive-image{
+	width:100%;
+	max-height: 400px;
+    min-height: 400px;
+}
+.responsive-image-second{
+	width:100%;
+	max-height: 400px;
+    min-height: 400px;
+}
+.responsive-image-third{
+	width:100%;
+	max-height: 400px;
+    min-height: 400px;
+}
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. 
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}*/
